@@ -17,17 +17,11 @@ This repo is a **prompt engineering project** that teaches Claude Code to be a D
 
 ---
 
-## Quick Start (First Game)
+## Quick Start
 
-1. **Create game folder:** `lost-citadel/games/game-NNN-YYYY-MM-DD/`
-2. **Load files in Claude:**
-   - `lost-citadel/rules/dm-system-prompt.md` ← DM guide (reference during play)
-   - `lost-citadel/games/game-NNN/state.md` ← Current game state (🚨 update every turn)
-   - `lost-citadel/rules/rooms.md` ← Room descriptions (lookup as needed)
-   - `lost-citadel/rules/encounters.md` ← Creature stats (reference for combat)
-   - `lost-citadel/rules/npcs.md` ← NPC details & generators (reference as needed)
-
-3. **During play:** Ask Claude to reference the files. Update `state.md` after each major action.
+1. **Clone the repo** to your machine
+2. **Open Claude Code** in the repo directory (Claude reads this file automatically)
+3. **Tell Claude to start a new adventure** — it will create the game folder, set up `state.md`, and begin play
 
 ---
 
@@ -210,16 +204,11 @@ lost-citadel/
 
 ---
 
-## iPhone Workflow
+## iPhone / Mobile Workflow
 
-1. **Clone repo in Claude Code app**
-2. **Start new game folder** in `games/`
-3. **Keep `state.md` open** during play (reference + edit live)
-4. **Reference `dm-system-prompt.md`** for mechanics questions
-5. **Look up rooms in `rooms.md`** as needed
-6. **Check NPCs in `npcs.md`** before encounters
-7. **Update `state.md` after each major action**
-8. **Write session log at end** in `log/session-NNN.md`
+1. **Clone the repo** in the Claude Code app
+2. **Tell Claude to start a new adventure** — it handles the rest
+3. **Play!** Claude will reference rules, track state, and update files automatically
 
 ---
 
