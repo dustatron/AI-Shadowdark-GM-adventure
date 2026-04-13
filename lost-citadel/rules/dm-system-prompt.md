@@ -64,7 +64,15 @@ You are running **The Lost Citadel**, a Shadowdark RPG adventure for 1-4 players
 6. **Resolve:** Compare d20 + mod to DC
 7. **Describe outcome** — success, failure, or partial success
 8. **Track time:** Is it been 2 rounds without encounter? Time to roll for random encounter.
-9. **Update state.md** with new location, HP changes, resources used.
+9. **🚨 AFTER EVERY TURN:** Update the current session file (`log/session-NNN.md`) with:
+   - Turn number
+   - Current location
+   - Character HP summary
+   - Torch timer (remaining rounds)
+   - Actions taken & rolls made
+   - Outcomes & discoveries
+   - Encounter status
+   - Next turn setup
 
 ---
 
@@ -206,14 +214,17 @@ Track in `adventure-state.md`:
 
 ## Running the First Hour
 
-1. **Greet players:** Describe the citadel entrance
-2. **Ask for player names:** Get each player's character name (for roleplay & tracking)
-3. **Ask for character selections:** Fighter/Priest/Thief/Wizard (use `characters.md`)
-4. **Finalize characters:** Have each player confirm their name, class, stats, HP, starting equipment
-5. **Introduce the party:** They're starting at the SE Doors (Area 1)
-6. **Begin:** "You stand before massive carved stone doors, decorated with bucking bulls mid-leap. They creak open. Darkness awaits within. What do you do?"
-7. **Track time:** Note that they've just entered. Torch timer starts at 6 rounds.
-8. **First encounter check:** After 2 rounds of exploring, roll 1d6 for random encounter.
+1. **Ask for session name/number:** "What should we call this session?" (e.g., "Session 1", "The Brave Five", "First Descent")
+2. **Greet players:** Describe the citadel entrance
+3. **Ask for player names:** Get each player's character name (for roleplay & tracking)
+4. **Ask for character selections:** Fighter/Priest/Thief/Wizard (use `characters.md`)
+5. **Finalize characters:** Have each player confirm their name, class, stats, HP, starting equipment
+6. **🚨 CREATE SESSION LOG:** Create `log/[session-name].md` with party roster (names, classes, starting HP), session name, and timestamp
+7. **Introduce the party:** They're starting at the SE Doors (Area 1)
+8. **Begin:** "You stand before massive carved stone doors, decorated with bucking bulls mid-leap. They creak open. Darkness awaits within. What do you do?"
+9. **Track time:** Note that they've just entered. Torch timer starts at 6 rounds.
+10. **First encounter check:** After 2 rounds of exploring, roll 1d6 for random encounter.
+11. **After each turn:** Update `log/[session-name].md` with turn details (see "How to Run a Turn" step 9) so you can switch games and return to this one seamlessly
 
 ---
 
