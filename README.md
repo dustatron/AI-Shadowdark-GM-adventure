@@ -94,6 +94,12 @@ Write a summary in `log/session-NNN.md`:
 - **Torch timer** (6 rounds per torch = constant time pressure)
 - **Random encounters** (every 2 rounds of exploring)
 
+### Map
+
+![The Lost Citadel — Keyed Map](Core%20Rules/keyed-map.png)
+
+*27 areas, interconnected layout. Reference this during play to plan routes and understand the citadel's geography.*
+
 ### The Factions
 
 **Beastmen** — Led by Rogath, they want the Scarlet Minotaur dead so they can rule the citadel.
