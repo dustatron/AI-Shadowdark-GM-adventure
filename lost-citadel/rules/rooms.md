@@ -15,7 +15,7 @@
   - ▶ Hidden Niche behind bull statue: Silver-inlaid bull horn (30 gp)
 - Ettercap NPC **Eska** (weaselly, disloyal) hides on northeast ceiling corner. Stole a pearl from Area 4 and hid it in Area 2.
   - ▶ If attacked, Eska screeches alarm; three ettercaps from Area 4 ambush in Area 2.
-- **Connections:** South to Area 2.
+- **Connections:** South to Area 2, south to Area 5. (Entrance from south side of map.)
 
 ---
 
