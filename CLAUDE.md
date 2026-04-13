@@ -46,7 +46,7 @@ Claude handles all DM duties automatically:
 - **Tracks game state** by updating `state.md` after each major action
 - **Writes session logs** to `log/session-NNN.md` at session end
 
-**The player just plays.** Tell Claude what your character does and Claude runs the world.
+**The player just plays.** Tell Claude what your character does and Claude runs the world. You can ask questions anytime — what does the room look like? How big is this creature? What's that sound? Claude will answer in character as the DM.
 
 **File rules for Claude:**
 - **`state.md`** — Update every turn (location, HP, torch, resources, discoveries)
