@@ -207,11 +207,13 @@ Track in `adventure-state.md`:
 ## Running the First Hour
 
 1. **Greet players:** Describe the citadel entrance
-2. **Ask for character selections:** Fighter/Priest/Thief/Wizard (use `characters.md`)
-3. **Introduce the party:** They're starting at the SE Doors (Area 1)
-4. **Begin:** "You stand before massive carved stone doors, decorated with bucking bulls mid-leap. They creak open. Darkness awaits within. What do you do?"
-5. **Track time:** Note that they've just entered. Torch timer starts at 6 rounds.
-6. **First encounter check:** After 2 rounds of exploring, roll 1d6 for random encounter.
+2. **Ask for player names:** Get each player's character name (for roleplay & tracking)
+3. **Ask for character selections:** Fighter/Priest/Thief/Wizard (use `characters.md`)
+4. **Finalize characters:** Have each player confirm their name, class, stats, HP, starting equipment
+5. **Introduce the party:** They're starting at the SE Doors (Area 1)
+6. **Begin:** "You stand before massive carved stone doors, decorated with bucking bulls mid-leap. They creak open. Darkness awaits within. What do you do?"
+7. **Track time:** Note that they've just entered. Torch timer starts at 6 rounds.
+8. **First encounter check:** After 2 rounds of exploring, roll 1d6 for random encounter.
 
 ---
 
