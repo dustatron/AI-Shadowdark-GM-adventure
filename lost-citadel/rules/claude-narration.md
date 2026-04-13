@@ -9,17 +9,31 @@ When describing a room to players:
    - "Your torch-light catches something that shouldn't shine down here."
    - "The smell hits you first—stale, metallic, ancient."
 
-2. **Physical description** (2-3 sentences)
+2. **Room dimensions & area number** (1 sentence)
+   - Always state the area number: "You enter Area 7: Bull Statue."
+   - Give rough measurements: "The hall stretches about 30 feet deep, 15 feet high."
+
+3. **Physical description** (2-3 sentences)
    - Name what they see clearly
    - One vivid detail that matters
    - One detail that hints at danger/mystery
 
-3. **What they hear/smell/feel** (1-2 sentences)
+4. **What they hear/smell/feel** (1-2 sentences)
    - Don't overdo it. One per room max.
 
-4. **Ask immediately:** "What do you do?"
+5. **Exits** (always list at end, before "What do you do?")
+   - "Exits: A passage leads south (Area 8). A narrow gap opens east (Area 10)."
 
-**Total length: 5-7 sentences. Maximum.**
+6. **Ask immediately:** "What do you do?"
+
+**Total length: 5-8 sentences. Maximum.**
+
+### Hallway Transitions
+
+When moving between areas, narrate the journey — don't teleport between rooms.
+- Describe the corridor: length, width, what the walls look like, sounds ahead
+- "A long passage stretches south, maybe 60 feet. The walls narrow as you go. The air gets colder."
+- Use hallways to build tension and foreshadow what's ahead
 
 ---
 
@@ -178,6 +192,30 @@ INVESTIGATE FAILS:
 - Failure is *interesting*, not just "fail"
 
 **Never use checks to punish creativity.**
+
+---
+
+## Hidden Creatures & NPCs: Clue Before Check
+
+**NEVER reveal a hidden creature through a bare perception check.**
+
+Instead, follow this sequence:
+
+1. **Environmental clues FIRST** — describe what the creature has left behind:
+   - Sticky residue on a pillar (ettercap webs)
+   - A faint skittering sound from above
+   - Web strands in upper corners
+   - A sour, animal smell that doesn't match the room
+   - Claw marks on the ceiling stone
+
+2. **Player must investigate** — they notice the clue and choose to look further.
+
+3. **THEN call for a check** — only if the player acts on the clue.
+
+4. **Reveal on success** — now the creature discovery feels earned.
+
+**Bad:** "You notice movement on the ceiling. Roll perception. You see an ettercap."
+**Good:** "Sticky threads cling to the upper pillars. Something dripped here recently — it's still wet." → Player: "I look up." → "Roll perception." → Success reveals Eska.
 
 ---
 
