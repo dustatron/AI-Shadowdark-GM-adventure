@@ -64,14 +64,14 @@ A large, roughly circular chamber. Thick, gauzy webbing covers the walls and flo
 
 **Creatures:** 5 purple-furred, potbellied humanoids. Snarling about a missing pearl.
 
-**Connections:**
-- North → Area 3 (Web-Choked Cave) — secret door
-
+**GM Notes:**
 - Ettercaps: Might parlay, but fatally treasure-crazed. Will squeeze through ceiling shafts with loot if outclassed.
   - ▶ **NPCs:** Skir (animated, loud), Yisha (tiny, sinister), Grisk (old, irritable), Uliss (lumbering, dull), Chee (silver fur, elegant)
   - ▶ Three flee to Area 2 if Eska (Area 1) raises alarm.
 - Treasure: 12 evenly-valued piles (200 gp, 2 pearls 40 gp each, alabaster bull statue 20 gp, 2 silver incense bowls 15 gp each, jade snake bracelet 20 gp, gold necklace 30 gp).
-- **Connections:** East to Area 3, ceiling shafts to Areas 7 & 9 (narrow passage).
+
+**Connections:**
+- North → Area 3 (Web-Choked Cave) — secret door
 
 ---
 
@@ -87,7 +87,51 @@ A small antechamber. A skeleton pinned to one wall by a spear driven through its
 
 **Connections:**
 - South → Area 2 (Blinding Cave)
-- North → Branching hallway system leading to Areas 14, 6, 7, 8, 9, 10
+- North → The Processional Corridors (see below)
+
+---
+
+## The Processional Corridors (hallway complex connecting Areas 5, 6, 7, 8, 9, 10, 14)
+
+**Description:**
+A branching network of stone corridors north of Area 5. The walls are smooth, carved with faded geometric patterns. The air is cold and still. Footsteps echo.
+
+**Layout (from Area 5 heading north):**
+
+```
+                        Area 10 ←── north exit
+                          |
+    Area 6               (hallway continues north)
+      |                   |
+   (8 sq east)    Area 8 ←── (6 sq east from turn)
+      |                   |
+   (turn north)    (turn east, 4 sq north)
+      |                   |
+   (5 sq west)     (hallway north)
+      |                   |
+    +─── west turn at 25' north ───+
+                          |
+                    (continues north)
+                          |
+              Area 14 ←── secret door at 15' north (west wall)
+                          |
+                       Area 5
+```
+
+- **15' north (3 squares):** Secret door on west wall → Area 14 (Hidden Hall)
+- **25' north (5 squares):** Corridor turns west
+  - **25' west (5 squares):** Connects to a corridor heading north
+    - **20' north (4 squares):** Corridor turns east
+      - **30' east (6 squares):** Door to Area 8 (Blood Bowls)
+      - **40' east (8 squares):** Door to Area 6 (Bathhouse)
+- **35' north (7 squares) on main path:** Connects to Area 7 (Bull Statue)
+
+**From Area 7 north:** Hallway continues to Area 10. From Area 8 east: doors to Area 5 hallway (south door) and Area 9 (north door). From Area 9 north: hallway runs west to Area 10.
+
+**DM Notes:**
+- These corridors are narrow (~10' wide) and echo badly — noise travels
+- Beastmen in Area 14 can hear loud sounds through the secret door
+- The corridors create a loop: 5 → 7 → 10 ← 9 ← 8 → 5
 
 ---
 
@@ -101,7 +145,7 @@ A sunken bathhouse. Six large stone basins carved with serpent motifs line the w
 - Basins: Removing plugs triggers cumulative **1:6 chance of scarab swarm**.
 
 **Connections:**
-- North → Area 5 (Robing Chamber) — via 8-square hallway from the west turn
+- North → Processional Corridors → Area 5 (Robing Chamber)
 
 ---
 
@@ -115,8 +159,8 @@ A towering bronze bull statue dominates this L-shaped hallway. Its horns are low
   - ▶ **Emerald (120 gp)** embedded in forehead. Shattering (AC 20, 1 HP) deactivates but reduces value to 20 gp.
 
 **Connections:**
-- South → Area 5 (Robing Chamber) — via 7-square hallway
-- North → Area 10 (Bull Statue trap) or northern exit hallway
+- South → Processional Corridors → Area 5 (Robing Chamber)
+- North → Area 10 (Bull Statue trap) / northern exit hallway
 - East → Area 8 (Blood Bowls)
 
 ---
@@ -132,7 +176,7 @@ A small chamber with dark stone alcoves. Each alcove holds a terracotta bowl on 
 **Connections:**
 - West → Area 7 (Bull Statue)
 - East → Two doors:
-  - Southerly door → hallway from Area 5
+  - Southerly door → Processional Corridors → Area 5
   - Northerly door → Area 9 (Sorcerous Pillars)
 
 ---
@@ -171,38 +215,56 @@ A long, narrow hallway dominated by another towering bronze bull statue, horns l
 
 ---
 
-## Area 11: PRISON
+## Area 11: PRISON (20' × 15')
 
-**Door:** Hefty stone, locked, barricaded inside. Cold & damp.
+**Player Description:**
+A cold, damp cell. The door is hefty stone, barricaded from the inside. Something metallic clinks faintly beyond. Through the keyhole: darkness, with bobbing red lights.
 
+**GM Notes:**
 - Door: Unlocked on this side. **DC 18 STR to force open**.
   - ▶ Listening: Faint metallic clinking inside.
   - ▶ Keyhole: Darkness with bobbing red lights.
 - Inside: Four **skeletons** in tattered red leather, shuffling, manacles anchored to floor. Four bronze-shod **spears** braced through handles (broken if door forced).
   - ▶ Wall scratches: "Days since Beast appeared." ~40 tally lines below, fading.
-- **Connections:** North to Area 10, south to Area 12.
+
+**Connections:**
+- North → Area 13 (Bull Statue)
+- South → Area 12 (Armory)
 
 ---
 
-## Area 12: ARMORY
+## Area 12: ARMORY (30' × 30')
 
-**Floor:** Tangled, gaping skeletons. **Walls:** Bronze dagger stuck in stone. **Alcoves:** Splintered wooden racks.
+**Player Description:**
+Skeletons everywhere—tangled on the floor, gaping at the ceiling. Twelve of them, some cut clean in half. Splintered wooden racks line alcoves along the walls. A bronze dagger juts from the stone wall at shoulder height. Scorch marks and deep sweeping gouges scar the walls.
 
+**GM Notes:**
 - Skeletons: Twelve, some cut in half. Red-dyed armor scraps, broken shields, bronze shortswords.
   - ▶ **If touched:** Cumulative 1:12 chance one rises as **wight** (once only).
   - ▶ Wight wears gold **Scarab of Protection** (artifact).
 - Racks: Red shield (black bull painted), three spears.
 - Walls: Scorch marks, deep sweeping gouges at chest/head height.
 - Beastmen listening from Area 14: If PCs are noisy/destructive, adjust their attitude one step toward **hostile**.
-- **Connections:** North to Area 11, south to Area 13, east to Area 14.
+
+**Connections:**
+- North → Area 11 (Prison)
+- South → Area 14 (Hidden Hall)
+- West → Area 13 (Bull Statue)
 
 ---
 
-## Area 13: BULL STATUE (Trap)
+## Area 13: BULL STATUE (Trap) (50' × 10', narrow hallway)
 
-As Area 7. **40 gp** scattered at statue's feet.
+**Player Description:**
+Another long, narrow hallway with a towering bronze bull statue, horns lowered. Gold coins—40 gp worth—are scattered at the statue's feet, glinting in your torchlight. A lure? A warning?
 
-- **Connections:** North to Area 12, south to Area 15.
+**GM Notes:**
+- As Area 7. **40 gp** scattered at statue's feet.
+
+**Connections:**
+- East → Area 12 (Armory)
+- South → Area 11 (Prison)
+- West → Area 18 (Central Courtyard) — via hallway
 
 ---
 
@@ -217,49 +279,68 @@ A narrow, silent hall. The air is stale and foul—urine, body odor, something u
 - Secret Doors: All visible from this side.
 
 **Connections:**
-- East → Area 5 (Robing Chamber) — secret door
+- East → Processional Corridors → Area 5 (Robing Chamber) — secret door
 - North → Area 12 (Armory)
 - West → Area 23 (Beastmen Lair)
 
 ---
 
-## Area 15: JAR STORAGE
+## Area 15: JAR STORAGE (25' × 20')
 
-**Jars:** 20 terracotta, fat, rounded, various heights. **Air:** Sulfuric scent. **Sound:** Faint squeaks & hisses. **South Door:** White, jagged stone gouges.
+**Player Description:**
+Twenty fat terracotta jars crowd this small room, various heights, some taller than a man. The air reeks of sulfur. Faint squeaks and hisses from within. On the south door: gouged white stone.
 
+**GM Notes:**
 - Jars: Sealed with cork/wax. Stamped with wheat harvesters.
   - ▶ **Explosive:** Shaking/striking causes **DC 12 DEX or 1d4 damage** (possible chain reaction).
   - ▶ **Treasure:** Cumulative 1:20 chance per jar of finding ivory egg shot with grey veins (40 gp) — **cockatrice egg!**
 - South Door: Carving in Common: "R.I.P. Orwyn the Younger."
-- **Connections:** North to Area 13, west to Area 14, east to Area 6, south to Area 16.
+
+**Connections:**
+- East → Area 1 (Mural Chamber) — long hallway
+- South → Area 16 (Offering Bowls)
+- North → Area 18 (Central Courtyard) — via hallway
 
 ---
 
-## Area 16: OFFERING BOWLS
+## Area 16: OFFERING BOWLS (20' × 30')
 
-**Halls:** Weighty stone bowl in each, chest-high. **Murals:** Peasants pour gold/wheat into grey bowls; red-armored warriors supervise.
+**Player Description:**
+A solemn hall with weighty stone bowls on plinths, chest-high. Murals on the walls show peasants pouring gold and wheat into grey bowls while red-armored warriors supervise with stern faces.
 
+**GM Notes:**
 - Stone Bowls: Smooth, worn. **Placing food or gold inside grants a Luck Token** (once per character).
 - NPC **Giuseppe Baldini** (N, herbalist, crotchety, middleaged, poor): Hides behind southeast bowl. Wants treasure.
-- **Connections:** North to Area 15, south to Area 18.
+
+**Connections:**
+- North → Area 15 (Jar Storage)
+- West → Area 22 (Labyrinth) — via passage
+- East → Area 17 (Broken Bull Statue) — via hallway
 
 ---
 
-## Area 17: BROKEN BULL STATUE
+## Area 17: BROKEN BULL STATUE (15' × 15')
 
-**Bull:** 10', bronze, head/horns smashed into cracked wall. **Body:** Pinned under statue.
+**Player Description:**
+A small alcove. A 10-foot bronze bull statue has smashed headfirst into the cracked wall, horns embedded in stone. A body is pinned beneath, crushed.
 
+**GM Notes:**
 - Statue: No longer functions. **Shattered emerald (20 gp)** in forehead.
 - Body: Young human man in chainmail & helm. **Bastard sword & shield** (splintered), dark green cloak.
   - ▶ **Backpack:** Torch, 10 pitons, 60' rope, withered apple, silver locket with painting of smiling red-haired woman (5 gp).
-- **Connections:** South to Area 18.
+
+**Connections:**
+- West → Area 16 (Offering Bowls) — via hallway
+- South → Area 18 (Central Courtyard)
 
 ---
 
-## Area 18: CENTRAL COURTYARD (Boss Arena)
+## Area 18: CENTRAL COURTYARD (Boss Arena) (50' × 50', open-air)
 
-**Bull Statue:** 20' tall, black onyx, rippling muscle. Horns dotted with white objects. **Courtyard:** Sandy flagstones, heaps of bleached bones. **Pillars:** Red, free-standing, some shattered. Cast cool shadows.
+**Player Description:**
+You emerge into open air. *Sky.* A massive black onyx bull statue, twenty feet tall, dominates the center. Its horns are dotted with skulls. The courtyard is a graveyard—bleached bones, broken weapons, dented armor scattered across dark-stained sand. Red pillars rise around the space, some shattered.
 
+**GM Notes:**
 - **THE SCARLET MINOTAUR:** 9' tall, wine-red fur. **3:6 chance** present. If not, **cumulative 1:6 chance/round** it returns. Charges at shadows, headbutts pillars, snorts & bellows.
   - ▶ **Two-headed, bronze +1 greataxe "Bloodlust"** — deals x4 damage on critical hit.
 - Bull Statue Horns: 30 humanoid skulls, various rot states. Some grey fur.
@@ -270,102 +351,211 @@ A narrow, silent hall. The air is stale and foul—urine, body odor, something u
     2. Bag of 60 gp (stamped emperor coin)
     3. *Scroll of Burning Hands* (bronze tube, jade dragons) — 80 gp
     4. Silvered longsword (half-moon pommel) — 30 gp
-- **Connections:** North to Area 17, west to Area 16, east to Area 19, south to Area 22.
+
+**Connections:**
+- North → Area 17 (Broken Bull Statue)
+- East → Area 19 (Bas-Relief Hall)
+- South → Area 22 (Labyrinth) — via passage, In/Out exit nearby
+- West → Area 13 (Bull Statue trap) — via hallway
+- Northwest → Area 23 (Beastmen Lair) — via passage
 
 ---
 
-## Area 19: BAS-RELIEF HALL
+## Area 19: BAS-RELIEF HALL (20' × 30')
 
-**Creature:** Gangly grey-furred humanoid sprawled facedown. **Burlap Sack:** Near hand. **Walls:** Dense bas-relief carvings of acrobats leaping bulls & ritualistic combat.
+**Player Description:**
+Dense bas-relief carvings cover every wall—acrobats leaping over charging bulls, ritualistic combat, figures frozen in stone mid-leap. A gangly grey-furred humanoid lies sprawled facedown on the floor. A burlap sack near its hand.
 
+**GM Notes:**
 - Beastman NPC **Brell** (frail, panicky): Cracked head fleeing noise. Wakes in 1d4 rounds.
   - ▶ **Traits:** Younger brother of Rogath (Area 23, beastmen leader). Naively loyal; seeks affection.
   - ▶ **Sack:** Two dead rats, necks snapped (gift for Rogath).
 - Hidden Niche: Behind bull-leaper carving. **Silver horned helm (15 gp)**.
-- **Connections:** West to Area 18, south to Area 20.
+
+**Connections:**
+- West → Area 18 (Central Courtyard)
+- South → Area 20 (Mosaic Room)
 
 ---
 
-## Area 20: MOSAIC ROOM
+## Area 20: MOSAIC ROOM (25' × 25')
 
-**Floor:** Rich orange, yellow, red tiles in swirl pattern.
+**Player Description:**
+The floor is a riot of color—rich orange, yellow, and red tiles spiraling outward in a swirl pattern. Beautiful. Almost hypnotic.
 
+**GM Notes:**
 - Mosaic camouflages a mottled **ochre jelly**. **3:6 chance** of stepping on it without careful inspection.
-- **Connections:** North to Area 19, east to Area 21, south to Area 22.
+
+**Connections:**
+- North → Area 19 (Bas-Relief Hall)
+- East → Area 21 (Throne Chamber)
+- South → Area 22 (Labyrinth)
 
 ---
 
-## Area 21: THRONE CHAMBER
+## Area 21: THRONE CHAMBER (25' × 30')
 
-**Door:** Bronze, emblazoned with sun & projecting rays. **Locked.**
+**Player Description:**
+A bronze door, emblazoned with a blazing sun and projecting rays. **Locked.** The metal is warm to the touch.
 
+**GM Notes:**
 - Door: **Key in Area 5**. Each failed unlock causes door to glow hot. **Cumulative 1:6 chance** it shoots three random fire rays (+4 attack, 2d6 damage each).
 - Inside: Bronze throne with **skeleton** (not undead) impaled by golden spear. Red **pillars** with ancient Common script.
   - ▶ **Skeleton:** On throne (50 gp, 2 gear slots). Wears **gold diadem with pearl (60 gp)**. Hands clasp **+1 Spear "Vigilant"** — wielder cannot be surprised.
   - ▶ **Pillars:** Lists tributes to Bull God Oros. Damanthus gave gold, Sarpen gave wheat, Minoros gave blood.
-- **Connections:** West to Area 20, south to Area 22.
+
+**Connections:**
+- West → Area 20 (Mosaic Room)
 
 ---
 
-## Area 22: LABYRINTH
+## Area 22: THE LABYRINTH (corridor maze, ~80' × 60', corridors 10' wide, ceiling 20')
 
-**Halls:** Narrow, 20' tall, shadowy at top. Tight corners. Hot wind rushes. **Floor:** Skirls of sand, cloven hoofprints (two handspans wide).
-
-- Cloven Hoofprints: Trail of Scarlet Minotaur's movement.
-- Dead-Ends: Clusters of gourd-sized terracotta jars, mostly smashed.
-  - ▶ **Intact Jars (1d6 per dead-end):** Each has 1d4 gp, handful of ash, pinkie-sized colorful thread doll.
-  - ▶ **Taking anything:** 1:20 chance of ghost haunting on next full moon.
-- **Connections:** North to Area 18, east to Area 20-21, west to Area 23.
+**Player Description:**
+Narrow corridors, twenty feet tall, shadowy at the top. Tight corners everywhere. Hot wind rushes through from somewhere unseen. The floor is covered in skirls of sand and cloven hoofprints—two handspans wide. Something large walks these halls regularly.
 
 ---
 
-## Area 23: BEASTMEN LAIR (Major Location)
+### Running the Labyrinth
 
-**Creatures:** 15 hunched, grey-furred humanoids. Chewing centipedes, whispered speech. One lounges on rat pelt mat, picks teeth. **Room:** Grimy, scattered rodent bones. **Smell:** Unwashed bodies, urine.
+**The player should feel lost.** Do not give precise distances or directions. Describe turns, dead-ends, and choices. Use the waypoints below to track position internally.
 
+**Each "move" through the labyrinth = 1 exploration turn** (decrement torch).
+
+**Navigation:**
+- Player states a direction or goal ("I head toward the sounds" / "I go left")
+- **DC 12 WIS check** to navigate toward a specific exit
+  - **Success:** Reach the next waypoint or chosen exit
+  - **Failure:** Hit a dead-end (describe jars, hoofprints, tension) + 1 wasted turn
+- **Following hoofprints:** No check needed, but always leads toward Area 18 (Minotaur territory)
+- **Backtracking:** DC 9 WIS to retrace steps (easier than finding new paths)
+
+### Waypoints (DM tracking only — never share with players)
+
+```
+                    Area 18 (Central Courtyard)
+                         |
+                    [North Junction]
+                    /           \
+         [West Fork]        [East Fork]
+            |                    |
+     Area 23 (Beastmen)    Area 16 (Offering Bowls)
+            |                    |
+     [Southwest Bend]     [Southeast Bend]
+            |                    |
+     SW Exit (In/Out)      Area 20 (Mosaic Room)
+```
+
+- **North Junction:** Central hub. Hoofprints converge here. Hot wind strongest.
+- **West Fork:** Beastman scent (musk, urine). Corridors narrower.
+- **East Fork:** Sulfur smell drifts from Area 16. Sand is deeper.
+- **Southwest Bend:** Daylight visible ahead (exterior exit). Fresh air.
+- **Southeast Bend:** Mosaic tiles begin appearing on floor. Transition to Area 20.
+
+### Dead-Ends (3-4 scattered throughout)
+
+Each dead-end contains clusters of gourd-sized terracotta jars, mostly smashed.
+- ▶ **Intact Jars (1d6 per dead-end):** Each has 1d4 gp, handful of ash, pinkie-sized colorful thread doll.
+- ▶ **Taking anything:** 1:20 chance of ghost haunting on next full moon.
+
+### Narration Cues
+
+**First entry:** "The corridor splits. Left or right. Both look the same. Hoofprints go both ways. The ceiling disappears into shadow twenty feet above. You feel *small* in here."
+
+**Dead-end:** "The corridor ends abruptly. Smashed jars litter the floor. Claw marks on the walls — something turned around here in a hurry. You'll have to go back."
+
+**Hearing the Minotaur:** "A sound echoes through the corridors. Hooves on stone. Heavy breathing. It's impossible to tell which direction. Close? Far? The maze plays tricks."
+
+**Near an exit:** "The air changes. [Fresh air / sulfur smell / animal musk / mosaic tiles underfoot]. You're close to something."
+
+### Encounters in the Labyrinth
+
+- **Scarlet Minotaur:** This is its hunting ground. If an encounter check triggers here, it's the Minotaur 50% of the time (on 1-4 of d8).
+- **The Minotaur knows the maze.** It does not get lost. It charges straight at prey.
+- **Sound carries badly** — echoes make it hard to judge distance or direction.
+
+**Connections (exits):**
+- North → Area 18 (Central Courtyard)
+- East → Area 16 (Offering Bowls)
+- Northeast → Area 20 (Mosaic Room)
+- West → Area 23 (Beastmen Lair)
+- Southwest → Exterior (In/Out exit)
+
+---
+
+## Area 23: BEASTMEN LAIR (Major Location) (40' × 30')
+
+**Player Description:**
+A grimy, stinking den. Fifteen hunched, grey-furred humanoids crouch in the dim space, chewing centipedes, whispering. One larger figure lounges on a rat pelt mat, picking its teeth. Rodent bones litter the floor. The smell is overwhelming—unwashed bodies, urine, animal musk.
+
+**GM Notes:**
 - Beastmen: Hostile toward noise-makers. Superstitious about (non-existent) dragons outside.
   - ▶ **NPCs:** Rogath (hulking, lazy, feared leader), Grenton (wiry, mistrustful), Hargol (eyes point different directions, agrees to everything), Beetle (scuttles, elaborate plans).
   - ▶ **Alliance:** Rogath wants Scarlet Minotaur dead so he can rule. Cheerfully sends hated brother Brell (Area 19) & minions into danger.
 - Secret Doors: All visible from this side. One beastman guards each.
-- **Connections:** North to Area 14, east to Area 22, south to Area 24-25.
+
+**Connections:**
+- East → Area 14 (Hidden Hall)
+- South → Area 22 (Labyrinth) — via passage
+- Southeast → Area 18 (Central Courtyard) — via passage
+- North → Area 24 (Lookout Room)
+- West → Area 25 (Training Chamber) — via hallway
 
 ---
 
-## Area 24: LOOKOUT ROOM
+## Area 24: LOOKOUT ROOM (15' × 15')
 
-**Creatures:** Two shaggy, stooped humanoids listen sullenly. **Room:** Filthy, low ceiling. **Stench:** Wet animal & dung.
+**Player Description:**
+A filthy, cramped room with a low ceiling. Two shaggy, stooped humanoids crouch here, listening sullenly. The stench is thick—wet animal and dung.
 
+**GM Notes:**
 - NPCs: **Irvog** (young, earnest), **Blort** (scarred face, disciplined). Adjust attitude toward **hostile** if PCs noisy.
 - Secret Doors: All visible from this side.
-- **Connections:** North to Area 23, east to Area 25.
+
+**Connections:**
+- South → Area 23 (Beastmen Lair)
+- North → Area 25 (Training Chamber)
 
 ---
 
-## Area 25: TRAINING CHAMBER
+## Area 25: TRAINING CHAMBER (30' × 20')
 
-**Armor Stands:** Five suits of red-dyed leather reinforced with bronze studs. **Weapon Rack:** Bronze weapons, dusty.
+**Player Description:**
+Five suits of red-dyed leather armor stand on wooden forms, reinforced with bronze studs. They look almost ready to march. A weapon rack holds dusty bronze weapons—shortswords, longswords, shields, spears.
 
+**GM Notes:**
 - Armor: Touching or removing weapons causes three suits to spring as **animated armor**, attack for 1d4 rounds.
 - Weapon Rack: Five shortswords, longswords, shields, spears (all bronze).
-- **Connections:** West to Area 24, north to Area 23, east to Area 26.
+
+**Connections:**
+- South → Area 24 (Lookout Room)
+- East → Area 23 (Beastmen Lair) — via hallway
+- North → Area 26 (Hall of Kings)
 
 ---
 
-## Area 26: HALL OF KINGS
+## Area 26: HALL OF KINGS (40' × 20')
 
-**Alcoves:** Bronze, lifelike male statue on raised pedestal in each.
+**Player Description:**
+A formal hall lined with alcoves. In each alcove stands a bronze statue on a raised pedestal—lifelike, athletic, proud. Similar features across all of them. Draped in robes. Each wears a pearl diadem and holds a weapon.
 
+**GM Notes:**
 - Statues: Athletic, proud, similar features. Draped in robes, wearing **pearl diadems (40 gp each)**. Each holds a weapon.
   - ▶ **Inscriptions:** Damanthus (greatsword), Sarpen (spear), Minoros (greataxe). "Sons of" lineage.
   - ▶ **Diadems:** Trapped! Touching pearl causes statue to swing weapon (**+5 attack**).
-- **Connections:** West to Area 25, north to Area 27.
+
+**Connections:**
+- South → Area 25 (Training Chamber)
+- East → Area 27 (Sacrifice Cave)
 
 ---
 
-## Area 27: SACRIFICE CAVE (Endgame)
+## Area 27: SACRIFICE CAVE (Endgame) (irregular, ~40' × 50', ceiling 30')
 
-**Cave:** Chilly, damp, 30' ceiling. Dripping stalactites. **Pool:** Crimson water, murky. **Smell:** Coppery, metallic.
+**Player Description:**
+A natural cave, chilly and damp. Stalactites drip from a ceiling thirty feet above. In the center: a pool of crimson water, murky and still. The smell is coppery, metallic. At the edges of your torchlight, smoky shapes flicker—almost human, almost not.
 
+**GM Notes:**
 - Spirits: Dozens of smoky, humanlike shadows flicker at darkness edge. If **light goes out**, they descend with ghostly shrieks, dealing **1d8 damage/round** to each character.
 - Pool: 20' deep. **Cursed water.** **DC 12 CON per round of contact or lose 1 WIS** (heals after rest). **0 WIS = permanently catatonic**.
   - ▶ **On Bottom:** Graveyard of dozens of humanoid/bull skeletons. Among them:
@@ -374,7 +564,9 @@ A narrow, silent hall. The air is stale and foul—urine, body odor, something u
     - Three onyx bull statuettes (15 gp each)
     - **Boots of the Cat**
     - Tiny bottle housing soul of mighty sorcerer **Malfune**
-- **Connections:** South to Area 26.
+
+**Connections:**
+- West → Area 26 (Hall of Kings)
 
 ---
 
