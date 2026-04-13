@@ -171,12 +171,13 @@ Each game has its own `state.md` and `log/` folder. Check `games/index.md` to se
 
 ## Tips for Players
 
-1. **Light matters.** Your torch has limited time — don't dawdle.
-2. **Search carefully.** Secret doors and hidden treasure reward thorough exploration.
-3. **Bull statue traps are deadly.** If you see a bronze bull, be cautious.
-4. **Talk to NPCs.** Beastmen and Ettercaps have their own goals — alliances are possible.
-5. **Be creative.** Clever solutions work. The DM rewards ingenuity.
-6. **The Minotaur is real.** The longer you stay, the more likely you'll meet it.
+1. **Print or sketch the map.** Keep the keyed map (`Core Rules/keyed-map.png`) on paper next to you while you play. It helps you track where you've been, plan routes, and decide where to explore next.
+2. **Light matters.** Your torch has limited time — don't dawdle.
+3. **Search carefully.** Secret doors and hidden treasure reward thorough exploration.
+4. **Bull statue traps are deadly.** If you see a bronze bull, be cautious.
+5. **Talk to NPCs.** Beastmen and Ettercaps have their own goals — alliances are possible.
+6. **Be creative.** Clever solutions work. The DM rewards ingenuity.
+7. **The Minotaur is real.** The longer you stay, the more likely you'll meet it.
 
 ---
 
