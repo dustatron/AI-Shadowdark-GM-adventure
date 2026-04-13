@@ -44,14 +44,10 @@ Claude is your DM. You just tell it what your character does.
 
 - **Claude narrates rooms** — descriptions, atmosphere, what you see and hear
 - **Claude rolls dice** — checks, combat, encounters, torch timers
-- **Claude tracks everything** — HP, loot, location, game state
-- **Claude writes session logs** — summaries saved automatically at session end
+- **Claude saves after every turn** — updates `state.md` with HP, location, torch timer, loot, and room changes so nothing is lost
+- **Claude writes session logs** — full summary saved to `log/session-NNN.md` at session end
 
 **You can ask questions anytime:** What does the room look like? How big is this creature? What's that sound? Claude answers in character as the DM.
-
-### After Each Session
-
-Claude writes a summary in `log/session-NNN.md` covering rooms explored, combat, loot, NPCs encountered, and notes for next session.
 
 ---
 
