@@ -30,54 +30,28 @@ This repo includes:
 
 ---
 
-## Quick Start (5 Minutes)
+## Quick Start
 
-1. **Pick characters** from `lost-citadel/rules/characters.md`
-2. **Create game folder** `lost-citadel/games/game-NNN-YYYY-MM-DD/` (copy state.md template)
-3. **Open in Claude Code** (or Claude iPhone app)
-4. **Load these files in the conversation:**
-   - `lost-citadel/rules/dm-system-prompt.md` ← How to run the game
-   - `lost-citadel/rules/rooms.md` ← What the citadel looks like
-   - `lost-citadel/rules/encounters.md` ← Creature stats
-   - Your game's `state.md` ← Current location, HP, torch timer
-5. **Start playing** — Ask Claude to describe the citadel entrance. Then: "What do you do?"
+1. **Clone this repo**
+2. **Open Claude Code** in the repo directory (Mac, iPhone, or web)
+3. **Tell Claude to start a new adventure** — Claude sets up the game, picks characters with you, and begins play
 
 ---
 
 ## How to Play
 
-### Setup (First Time)
+Claude is your DM. You just tell it what your character does.
 
-- **Pick 1-4 characters** from `lost-citadel/rules/characters.md`
-- **Create game folder:** `lost-citadel/games/game-001-2026-04-12/` (use today's date)
-- **Copy template state.md** (example in `lost-citadel/games/index.md`)
-- **Create `log/` folder** with empty `session-001.md`
+- **Claude narrates rooms** — descriptions, atmosphere, what you see and hear
+- **Claude rolls dice** — checks, combat, encounters, torch timers
+- **Claude tracks everything** — HP, loot, location, game state
+- **Claude writes session logs** — summaries saved automatically at session end
 
-### During Play
-
-**Each turn:**
-1. **Describe** the room (Claude references `rooms.md`)
-2. **Ask** "What do you do?"
-3. **Listen** to player actions
-4. **Call checks** (d20 + mod vs. DC 9/12/15)
-5. **Resolve consequences** with narration
-6. **Update state.md:** location, HP, torch timer
-7. **Roll for encounters** every 2 rounds (1d6, on 1 = encounter)
-
-**References (keep open):**
-- Current room from `rooms.md`
-- `state.md` (your game state)
-- `encounters.md` (creature stats for combat)
-- `npcs.md` (NPC details)
+**You can ask questions anytime:** What does the room look like? How big is this creature? What's that sound? Claude answers in character as the DM.
 
 ### After Each Session
 
-Write a summary in `log/session-NNN.md`:
-- What rooms you explored
-- Combat that happened
-- Loot acquired
-- NPCs encountered
-- Notes for next session
+Claude writes a summary in `log/session-NNN.md` covering rooms explored, combat, loot, NPCs encountered, and notes for next session.
 
 ---
 
@@ -195,16 +169,14 @@ Each game has its own `state.md` and `log/` folder. Check `games/index.md` to se
 
 ---
 
-## Tips for DMs
+## Tips for Players
 
-1. **Torch timer creates urgency.** Emphasize time pressure so players feel rushed.
-2. **Read the room before each area.** Know what treasures & NPCs are present.
-3. **Bull statue traps are deadly.** Creatures use them tactically. Let players discover this.
-4. **Secret doors reward searching.** Don't give them away; let persistence & checks find them.
-5. **The Minotaur is a threat that looms.** It should feel inevitable if players linger.
-6. **Let players be creative.** If they find a clever solution, let it work (within reason).
-7. **Failure is interesting.** When a check fails, describe dramatic consequences (not "nothing happens").
-8. **NPCs have goals.** Beastmen want the Minotaur dead; Ettercaps want treasure. They're not just obstacles.
+1. **Light matters.** Your torch has limited time — don't dawdle.
+2. **Search carefully.** Secret doors and hidden treasure reward thorough exploration.
+3. **Bull statue traps are deadly.** If you see a bronze bull, be cautious.
+4. **Talk to NPCs.** Beastmen and Ettercaps have their own goals — alliances are possible.
+5. **Be creative.** Clever solutions work. The DM rewards ingenuity.
+6. **The Minotaur is real.** The longer you stay, the more likely you'll meet it.
 
 ---
 
@@ -216,27 +188,19 @@ For project-specific conventions & workflows, see **`CLAUDE.md`**.
 
 ## Getting Started
 
-1. **Read this README** (you're doing it!)
-2. **Pick your players** (1-4)
-3. **Create game folder** in `games/`
-4. **Pick characters** from `rules/characters.md`
-5. **Initialize state.md** with party info
-6. **Open in Claude Code** (Mac or iPhone app)
-7. **Ask Claude:** "Start the adventure!"
+1. **Clone this repo**
+2. **Open Claude Code** in the repo directory
+3. **Say:** "Start a new adventure!"
 
 ---
 
 ## Questions?
 
-- **"How do I run a turn?"** → See `rules/dm-system-prompt.md`
-- **"What's in this room?"** → Look it up in `rules/rooms.md`
-- **"What are creature stats?"** → See `rules/encounters.md` or `rules/npcs.md`
-- **"How does combat work?"** → See `rules/claude-combat.md`
-- **"How do I track game state?"** → See `rules/dm-system-prompt.md` "Managing Player Resources"
-- **"Can I run multiple games?"** → Yes! Create separate folders in `games/`
+- **"How do I play?"** → Just tell Claude what your character does
+- **"Can I ask about the room?"** → Yes! Ask anything — Claude describes it in character
+- **"Can I run multiple games?"** → Yes! Claude tracks each game separately in `games/`
+- **"Does it work on iPhone?"** → Yes! Clone the repo in the Claude Code app and start playing
 
 ---
 
 **The Lost Citadel awaits. Pick your party. Light your torch. Descend into darkness.**
-
-Good luck, DM.
