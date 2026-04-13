@@ -37,22 +37,21 @@ This repo is a **prompt engineering project** that teaches Claude Code to be a D
 
 ---
 
-## During Play — File Management
+## During Play
 
-**Always Update `state.md` After:**
-- Party location changes
-- HP changes (combat or damage)
-- Torch timer decrements
-- Major discoveries (treasure, NPCs, secrets)
-- Combat ends
-- Session ends (write log)
+Claude handles all DM duties automatically:
 
-**Files You'll Edit:**
-- **`state.md`** ← Current location, HP, torch, resources, encounter status — **UPDATE EVERY TURN**
-- **`log/session-NNN.md`** ← Turn-by-turn summary at session END
+- **Narrates rooms** using descriptions from `rooms.md`
+- **Rolls dice** for checks, combat, encounters, and torch timers
+- **Tracks game state** by updating `state.md` after each major action
+- **Writes session logs** to `log/session-NNN.md` at session end
 
-**Files You'll NEVER Edit:**
-- **`rooms.md`** ← The dungeon layout is fixed. Room changes from player actions (looted treasure, killed NPCs, destroyed objects) are tracked in `state.md` under a "Room Changes" section, not by editing rooms.md.
+**The player just plays.** Tell Claude what your character does and Claude runs the world.
+
+**File rules for Claude:**
+- **`state.md`** — Update every turn (location, HP, torch, resources, discoveries)
+- **`log/session-NNN.md`** — Write at session end
+- **`rooms.md`** — Never edit. Track room changes from player actions (looted treasure, killed NPCs, sprung traps) in `state.md` under a "Room Changes" section.
 
 ---
 
