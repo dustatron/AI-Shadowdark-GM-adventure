@@ -3,24 +3,25 @@
 **Safe to Share:** Descriptions at the top of each area are for players.
 **GM Notes:** Bulleted details below are secrets, mechanics, and loot.
 
-**Light & Doors:** All areas are in total darkness unless noted. Stone doors; 1:6 stuck shut. Unlocked unless noted.
+**Light & Doors:** All areas are in total darkness unless noted. Stone doors; 1:6 stuck shut (roll per door when PCs try to open). Unlocked unless noted.
+
+**Default Ceiling Height:** 10' unless noted in room header.
 
 ---
 
 ## Area 1: MURAL CHAMBER (35' × 40', ceiling 20')
 
 **Player Description:**
-Your torch reveals walls completely covered in murals—jewel-bright reds, golds, purples. Robed figures kneel in worship before a colossal onyx bull with lowered horns. Four red pillars rise like sentinels through the space. The room is *designed* for worship. Cold air. Dust hangs motionless.
+Your torch reveals walls completely covered in murals—jewel-bright reds, golds, purples. White-robed figures kneel in worship before a colossal onyx bull with lowered horns. Four red pillars rise like sentinels through the space. The room is *designed* for worship. Cold air. Dust hangs motionless.
 
 **GM Notes:**
-- Murals: People in white robes kneeling before a colossal onyx bull with lowered horns.
-  - ▶ Hidden Niche behind bull statue: Silver-inlaid bull horn (30 gp)
+- ▶ Hidden Niche behind bull statue: Silver-inlaid bull horn (30 gp)
 - Ettercap NPC **Eska** (weaselly, disloyal) hides on northeast ceiling corner. Stole a pearl from Area 4 and hid it in Area 2.
   - ▶ If attacked, Eska screeches alarm; three ettercaps from Area 4 ambush in Area 2.
 
 **Connections:**
-- East → Area 2 (Blinding Cave) — via door
-- West → Area 15 (long hallway)
+- East → Area 2 (Blinding Cave) — door opens to L-shaped hallway with stairs ascending
+- West → Area 15 (Jar Storage) — long hallway
 
 ---
 
@@ -62,7 +63,8 @@ A large, roughly circular chamber. Thick, gauzy webbing covers the walls and flo
 
 ## Area 4: ETTERCAP NEST (30' × 35', ceiling 10')
 
-**Creatures:** 5 purple-furred, potbellied humanoids. Snarling about a missing pearl.
+**Player Description:**
+A low-ceilinged den reeking of animal musk. Five purple-furred, potbellied humanoids crouch around piles of glinting treasure, snarling at each other in harsh clicks and hisses. Three narrow shafts pierce the ceiling. The creatures freeze when they see your light.
 
 **GM Notes:**
 - Ettercaps: Might parlay, but fatally treasure-crazed. Will squeeze through ceiling shafts with loot if outclassed.
@@ -99,39 +101,44 @@ A branching network of stone corridors north of Area 5. The walls are smooth, ca
 **Layout (from Area 5 heading north):**
 
 ```
-                        Area 10 ←── north exit
-                          |
-    Area 6               (hallway continues north)
-      |                   |
-   (8 sq east)    Area 8 ←── (6 sq east from turn)
-      |                   |
-   (turn north)    (turn east, 4 sq north)
-      |                   |
-   (5 sq west)     (hallway north)
-      |                   |
-    +─── west turn at 25' north ───+
-                          |
-                    (continues north)
-                          |
-              Area 14 ←── secret door at 15' north (west wall)
-                          |
-                       Area 5
+                Area 10 ─── north ──→ Northern Exit
+                  ↑
+                Area 7
+                  ↑
+         7 sq west from turn
+                  ↑
+Area 6 ←─ 8 sq ──┐
+                  │── east turn
+Area 8 ←─ 6 sq ──┘
+                  ↑
+              4 sq north
+                  ↑
+              junction
+                  ↑
+         5 sq west from turn
+                  ↑
+              west turn ←── 5 sq north from Area 5
+                  ↑
+Area 14 ←─ secret door (3 sq north, west wall)
+                  ↑
+               Area 5
 ```
 
-- **15' north (3 squares):** Secret door on west wall → Area 14 (Hidden Hall)
-- **25' north (5 squares):** Corridor turns west
-  - **25' west (5 squares):** Connects to a corridor heading north
-    - **20' north (4 squares):** Corridor turns east
-      - **30' east (6 squares):** Door to Area 8 (Blood Bowls)
-      - **40' east (8 squares):** Door to Area 6 (Bathhouse)
-- **35' north (7 squares) on main path:** Connects to Area 7 (Bull Statue)
+**Step-by-step from Area 5 heading north:**
+1. **15' (3 sq) north:** Secret door on west wall → Area 14 (Hidden Hall)
+2. **25' (5 sq) north:** Corridor turns **west**
+3. **25' (5 sq) west:** Reaches junction with corridor heading **north**
+4. From junction, **20' (4 sq) north:** Corridor turns **east**
+   - **30' (6 sq) east:** Door to Area 8 (Blood Bowls)
+   - **40' (8 sq) east:** Door to Area 6 (Bathhouse)
+5. From the west turn, continue **35' (7 sq) west total:** Reaches Area 7 (Bull Statue)
 
-**From Area 7 north:** Hallway continues to Area 10. From Area 8 east: doors to Area 5 hallway (south door) and Area 9 (north door). From Area 9 north: hallway runs west to Area 10.
+**Loop:** Area 7 connects north to Area 10. Area 10 connects east to a north-south hallway. That hallway's north end reaches Area 9, south end reaches Area 8. Area 8 east door leads back to the corridor from Area 5. **Full loop: 5 → 7 → 10 → 9 → 8 → 5.**
 
 **DM Notes:**
-- These corridors are narrow (~10' wide) and echo badly — noise travels
+- Corridors are narrow (~10' wide) and echo badly — noise travels
 - Beastmen in Area 14 can hear loud sounds through the secret door
-- The corridors create a loop: 5 → 7 → 10 ← 9 ← 8 → 5
+- Players who discover the loop gain a tactical advantage (flanking, retreating)
 
 ---
 
@@ -149,7 +156,7 @@ A sunken bathhouse. Six large stone basins carved with serpent motifs line the w
 
 ---
 
-## Area 7: BULL STATUE (Trap) (L-shaped, ~15' × 50', ceiling 20')
+## Area 7: BULL STATUE — The Emerald Guardian (L-shaped, ~15' × 50', ceiling 20')
 
 **Player Description:**
 A towering bronze bull statue dominates this L-shaped hallway. Its horns are lowered in eternal charge. The air smells of old metal and dust.
@@ -201,31 +208,35 @@ A long, narrow hall dominated by four pairs of jewel-toned pillars with black ma
 
 ---
 
-## Area 10: BULL STATUE (Trap) (65' × 10', narrow hallway)
+## Area 10: BULL STATUE — The Skeleton's Warning (65' × 10', narrow hallway)
 
 **Player Description:**
-A long, narrow hallway dominated by another towering bronze bull statue, horns lowered. A skeleton is impaled on the horns, bones yellowed and cracked. An emerald glints in the skull's eye socket.
+Another long, narrow hallway. Another towering bronze bull statue, horns lowered. But this one has a skeleton impaled on its horns — bones yellowed, cracked, draped over the bronze like a warning. Something glints in the statue's forehead beneath the bones.
 
 **GM Notes:**
-- As Area 7. Skeleton stuck on horns covers emerald.
+- Statue: Motion-activated. **3:6 chance/round** it animates and charges down hall. **DC 15 DEX or 2d6 damage + knocked flat**. Resets.
+- Skeleton stuck on horns covers the emerald.
+  - ▶ **Emerald (120 gp)** in forehead. Shattering (AC 20, 1 HP) deactivates statue but reduces value to 20 gp.
 
 **Connections:**
-- East → Hallway connecting to Area 9 (Sorcerous Pillars) and Area 8 (Blood Bowls)
-- North → Hallway leading to northern exit
+- East → North-south hallway:
+  - North end → Area 9 (Sorcerous Pillars)
+  - South end → Area 8 (Blood Bowls)
+- North → Hallway leading to northern exit (exterior)
 
 ---
 
 ## Area 11: PRISON (20' × 15')
 
 **Player Description:**
-A cold, damp cell. The door is hefty stone, barricaded from the inside. Something metallic clinks faintly beyond. Through the keyhole: darkness, with bobbing red lights.
+A hefty stone slab door with a keyhole. Cold and damp to the touch.
 
 **GM Notes:**
-- Door: Unlocked on this side. **DC 18 STR to force open**.
-  - ▶ Listening: Faint metallic clinking inside.
-  - ▶ Keyhole: Darkness with bobbing red lights.
-- Inside: Four **skeletons** in tattered red leather, shuffling, manacles anchored to floor. Four bronze-shod **spears** braced through handles (broken if door forced).
-  - ▶ Wall scratches: "Days since Beast appeared." ~40 tally lines below, fading.
+- Door: Unlocked on this side, barricaded from inside. **DC 18 STR to force open**.
+  - ▶ **Listening:** Faint metallic clinking on the other side.
+  - ▶ **Keyhole:** Darkness with a few points of bobbing red light.
+- Inside: Four **skeletons** in tattered red leather shuffle around, knocking into manacles anchored to floor. Four bronze-shod **spears** braced through door handles (broken if door forced).
+  - ▶ **Wall scratches:** In ancient Common: "Days since the Beast appeared." About 40 tally lines below, gradually fainter.
 
 **Connections:**
 - North → Area 13 (Bull Statue)
@@ -236,10 +247,9 @@ A cold, damp cell. The door is hefty stone, barricaded from the inside. Somethin
 ## Area 12: ARMORY (30' × 30')
 
 **Player Description:**
-Skeletons everywhere—tangled on the floor, gaping at the ceiling. Twelve of them, some cut clean in half. Splintered wooden racks line alcoves along the walls. A bronze dagger juts from the stone wall at shoulder height. Scorch marks and deep sweeping gouges scar the walls.
+Skeletons everywhere—tangled on the floor, gaping at the ceiling. Twelve of them, some cut clean in half. Tatters of red-dyed armor and broken shields litter the bones. Splintered wooden racks line alcoves along the walls. A bronze dagger juts from the stone wall by its point. Scorch marks and deep sweeping gouges scar the walls at chest and head height.
 
 **GM Notes:**
-- Skeletons: Twelve, some cut in half. Red-dyed armor scraps, broken shields, bronze shortswords.
   - ▶ **If touched:** Cumulative 1:12 chance one rises as **wight** (once only).
   - ▶ Wight wears gold **Scarab of Protection** (artifact).
 - Racks: Red shield (black bull painted), three spears.
@@ -253,13 +263,15 @@ Skeletons everywhere—tangled on the floor, gaping at the ceiling. Twelve of th
 
 ---
 
-## Area 13: BULL STATUE (Trap) (50' × 10', narrow hallway)
+## Area 13: BULL STATUE — The Gold Bait (50' × 10', narrow hallway)
 
 **Player Description:**
-Another long, narrow hallway with a towering bronze bull statue, horns lowered. Gold coins—40 gp worth—are scattered at the statue's feet, glinting in your torchlight. A lure? A warning?
+Another long, narrow hallway. Another towering bronze bull statue, horns lowered for a charge. But at its feet: gold coins scattered across the stone, glinting in your torchlight. Forty gold pieces, just lying there.
 
 **GM Notes:**
-- As Area 7. **40 gp** scattered at statue's feet.
+- Statue: Motion-activated. **3:6 chance/round** it animates and charges down hall. **DC 15 DEX or 2d6 damage + knocked flat**. Resets.
+  - ▶ **Emerald** in forehead (as Area 7: 120 gp intact, AC 20/1 HP to shatter, 20 gp if shattered, deactivates statue).
+- **40 gp** scattered at statue's feet — bait for the unwary.
 
 **Connections:**
 - East → Area 12 (Armory)
@@ -281,7 +293,7 @@ A narrow, silent hall. The air is stale and foul—urine, body odor, something u
 **Connections:**
 - East → Processional Corridors → Area 5 (Robing Chamber) — secret door
 - North → Area 12 (Armory)
-- West → Area 23 (Beastmen Lair)
+- West → Area 18 (Central Courtyard) — long hallway
 
 ---
 
@@ -356,8 +368,8 @@ You emerge into open air. *Sky.* A massive black onyx bull statue, twenty feet t
 - North → Area 17 (Broken Bull Statue)
 - East → Area 19 (Bas-Relief Hall)
 - South → Area 22 (Labyrinth) — via passage, In/Out exit nearby
-- West → Area 13 (Bull Statue trap) — via hallway
-- Northwest → Area 23 (Beastmen Lair) — via passage
+- West → Area 13 (Bull Statue — The Gold Bait) — via hallway
+- East → Area 14 (Hidden Hall) — long hallway
 
 ---
 
@@ -395,14 +407,16 @@ The floor is a riot of color—rich orange, yellow, and red tiles spiraling outw
 
 ## Area 21: THRONE CHAMBER (25' × 30')
 
-**Player Description:**
+**Player Description (door, exterior):**
 A bronze door, emblazoned with a blazing sun and projecting rays. **Locked.** The metal is warm to the touch.
+
+**Player Description (interior, once opened):**
+Beyond the door: a bronze throne on a raised dais. A skeleton sits upon it — not crumbled, but *upright*, impaled through the chest by a golden spear its own hands still clasp. It wears a gold diadem with a pearl. Red pillars line the chamber, carved with ancient script.
 
 **GM Notes:**
 - Door: **Key in Area 5**. Each failed unlock causes door to glow hot. **Cumulative 1:6 chance** it shoots three random fire rays (+4 attack, 2d6 damage each).
-- Inside: Bronze throne with **skeleton** (not undead) impaled by golden spear. Red **pillars** with ancient Common script.
-  - ▶ **Skeleton:** On throne (50 gp, 2 gear slots). Wears **gold diadem with pearl (60 gp)**. Hands clasp **+1 Spear "Vigilant"** — wielder cannot be surprised.
-  - ▶ **Pillars:** Lists tributes to Bull God Oros. Damanthus gave gold, Sarpen gave wheat, Minoros gave blood.
+- Skeleton: Not undead. Sits on throne (50 gp, 2 gear slots). Wears **gold diadem with pearl (60 gp)**. Hands clasp **+1 Spear "Vigilant"** — wielder cannot be surprised.
+- **Pillars:** Lists tributes to Bull God Oros. **Damanthus the Brave** gave gold, **Sarpen the Wise** gave wheat, **Minoros the Cruel** gave blood.
 
 **Connections:**
 - West → Area 20 (Mosaic Room)
@@ -468,6 +482,18 @@ Each dead-end contains clusters of gourd-sized terracotta jars, mostly smashed.
 
 **Near an exit:** "The air changes. [Fresh air / sulfur smell / animal musk / mosaic tiles underfoot]. You're close to something."
 
+### Mercy Rule: The Hidden Exit
+
+After **3 consecutive failed navigation checks**, the player stumbles into a narrow, half-collapsed passage — a forgotten builders' tunnel. Describe it as a crack in the wall at knee height, barely wide enough to squeeze through.
+
+- **DC 12 STR** to squeeze through
+- Leads to the **nearest exit** (DM picks based on current waypoint)
+- The passage is one-way — rubble collapses behind them
+
+This prevents players from being trapped indefinitely while still costing them turns and torch.
+
+---
+
 ### Encounters in the Labyrinth
 
 - **Scarlet Minotaur:** This is its hunting ground. If an encounter check triggers here, it's the Minotaur 50% of the time (on 1-4 of d8).
@@ -495,11 +521,8 @@ A grimy, stinking den. Fifteen hunched, grey-furred humanoids crouch in the dim 
 - Secret Doors: All visible from this side. One beastman guards each.
 
 **Connections:**
-- East → Area 14 (Hidden Hall)
-- South → Area 22 (Labyrinth) — via passage
-- Southeast → Area 18 (Central Courtyard) — via passage
-- North → Area 24 (Lookout Room)
-- West → Area 25 (Training Chamber) — via hallway
+- South → Area 19 (Bas-Relief Hall)
+- East → Area 24 (Lookout Room)
 
 ---
 
@@ -513,7 +536,7 @@ A filthy, cramped room with a low ceiling. Two shaggy, stooped humanoids crouch 
 - Secret Doors: All visible from this side.
 
 **Connections:**
-- South → Area 23 (Beastmen Lair)
+- West → Area 23 (Beastmen Lair)
 - North → Area 25 (Training Chamber)
 
 ---
@@ -529,7 +552,6 @@ Five suits of red-dyed leather armor stand on wooden forms, reinforced with bron
 
 **Connections:**
 - South → Area 24 (Lookout Room)
-- East → Area 23 (Beastmen Lair) — via hallway
 - North → Area 26 (Hall of Kings)
 
 ---
@@ -537,12 +559,11 @@ Five suits of red-dyed leather armor stand on wooden forms, reinforced with bron
 ## Area 26: HALL OF KINGS (40' × 20')
 
 **Player Description:**
-A formal hall lined with alcoves. In each alcove stands a bronze statue on a raised pedestal—lifelike, athletic, proud. Similar features across all of them. Draped in robes. Each wears a pearl diadem and holds a weapon.
+A formal hall lined with alcoves. In each alcove stands a bronze statue on a raised pedestal—lifelike, athletic, proud. Similar features across all of them, like a family line. Draped in robes, each wears a pearl diadem and holds a different weapon. Inscriptions in ancient Common below each pedestal.
 
 **GM Notes:**
-- Statues: Athletic, proud, similar features. Draped in robes, wearing **pearl diadems (40 gp each)**. Each holds a weapon.
-  - ▶ **Inscriptions:** Damanthus (greatsword), Sarpen (spear), Minoros (greataxe). "Sons of" lineage.
-  - ▶ **Diadems:** Trapped! Touching pearl causes statue to swing weapon (**+5 attack**).
+- **Inscriptions:** **Damanthus**, Son of Aster (greatsword). **Sarpen**, Son of Damanthus (spear). **Minoros**, Son of Sarpen (greataxe).
+- **Diadems (40 gp each):** Trapped! Touching pearl causes statue to swing weapon (**+5 attack**).
 
 **Connections:**
 - South → Area 25 (Training Chamber)
