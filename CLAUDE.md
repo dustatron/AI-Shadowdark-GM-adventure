@@ -17,17 +17,11 @@ This repo is a **prompt engineering project** that teaches Claude Code to be a D
 
 ---
 
-## Quick Start (First Game)
+## Quick Start
 
-1. **Create game folder:** `lost-citadel/games/game-NNN-YYYY-MM-DD/`
-2. **Load files in Claude:**
-   - `lost-citadel/rules/dm-system-prompt.md` ← DM guide (reference during play)
-   - `lost-citadel/games/game-NNN/state.md` ← Current game state (🚨 update every turn)
-   - `lost-citadel/rules/rooms.md` ← Room descriptions (lookup as needed)
-   - `lost-citadel/rules/encounters.md` ← Creature stats (reference for combat)
-   - `lost-citadel/rules/npcs.md` ← NPC details & generators (reference as needed)
-
-3. **During play:** Ask Claude to reference the files. Update `state.md` after each major action.
+1. **Clone the repo** to your machine
+2. **Open Claude Code** in the repo directory (Claude reads this file automatically)
+3. **Tell Claude to start a new adventure** — it will create the game folder, set up `state.md`, and begin play
 
 ---
 
@@ -43,22 +37,21 @@ This repo is a **prompt engineering project** that teaches Claude Code to be a D
 
 ---
 
-## During Play — File Management
+## During Play
 
-**Always Update `state.md` After:**
-- Party location changes
-- HP changes (combat or damage)
-- Torch timer decrements
-- Major discoveries (treasure, NPCs, secrets)
-- Combat ends
-- Session ends (write log)
+Claude handles all DM duties automatically:
 
-**Files You'll Edit:**
-- **`state.md`** ← Current location, HP, torch, resources, encounter status — **UPDATE EVERY TURN**
-- **`log/session-NNN.md`** ← Turn-by-turn summary at session END
+- **Narrates rooms** using descriptions from `rooms.md`
+- **Rolls dice** for checks, combat, encounters, and torch timers
+- **Tracks game state** by updating `state.md` after each major action
+- **Writes session logs** to `log/session-NNN.md` at session end
 
-**Files You'll NEVER Edit:**
-- **`rooms.md`** ← The dungeon layout is fixed. Room changes from player actions (looted treasure, killed NPCs, destroyed objects) are tracked in `state.md` under a "Room Changes" section, not by editing rooms.md.
+**The player just plays.** Tell Claude what your character does and Claude runs the world. You can ask questions anytime — what does the room look like? How big is this creature? What's that sound? Claude will answer in character as the DM.
+
+**File rules for Claude:**
+- **`state.md`** — Update every turn (location, HP, torch, resources, discoveries)
+- **`log/session-NNN.md`** — Write at session end
+- **`rooms.md`** — Never edit. Track room changes from player actions (looted treasure, killed NPCs, sprung traps) in `state.md` under a "Room Changes" section.
 
 ---
 
@@ -210,16 +203,11 @@ lost-citadel/
 
 ---
 
-## iPhone Workflow
+## iPhone / Mobile Workflow
 
-1. **Clone repo in Claude Code app**
-2. **Start new game folder** in `games/`
-3. **Keep `state.md` open** during play (reference + edit live)
-4. **Reference `dm-system-prompt.md`** for mechanics questions
-5. **Look up rooms in `rooms.md`** as needed
-6. **Check NPCs in `npcs.md`** before encounters
-7. **Update `state.md` after each major action**
-8. **Write session log at end** in `log/session-NNN.md`
+1. **Clone the repo** in the Claude Code app
+2. **Tell Claude to start a new adventure** — it handles the rest
+3. **Play!** Claude will reference rules, track state, and update files automatically
 
 ---
 
