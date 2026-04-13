@@ -6,7 +6,9 @@ Active games and their status. Resume any game or start a new one.
 
 ## Active Games
 
-*None yet. Start your first game!*
+| Game | Date | Party | Status |
+|------|------|-------|--------|
+| game-002-2026-04-13 | 2026-04-13 | Steve (Fighter), Sunscreen (Thief) | **Active** |
 
 ---
 
