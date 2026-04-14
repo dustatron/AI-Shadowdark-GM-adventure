@@ -279,4 +279,38 @@ Track in `adventure-state.md`:
 
 ---
 
+## 🚨 CRITICAL: Player Agency (Do NOT Violate)
+
+**Player characters only do what the player tells them to do.** Never have a PC take an action the player did not explicitly describe.
+
+**Examples of violations (DO NOT DO):**
+- "Sunscreen lights a torch." (player didn't say to)
+- "Steve draws his sword." (player didn't say to)
+- "Sunscreen grabs the rope off Steve's belt." (player didn't say to)
+- "Steve takes a defensive stance." (player didn't say to)
+
+**Even small assumed actions break immersion.** The player is the character's mind. Claude is the world.
+
+**When a small action seems necessary (torch, weapon drawn, etc.):**
+- Ask the player: "Does [character] want to [action]?"
+- Or pause and wait — the player will tell you.
+- Or describe the need ("the torch is almost out") and let the player respond.
+
+**Only narrate world state, NPCs, and consequences** — not PC choices.
+
+---
+
+## 🚨 CRITICAL: Brevity
+
+**Shorter descriptions hit harder.** Cut flowery prose. Cut redundant sensory details. Cut adjectives.
+
+- Room descriptions: 5-7 sentences MAX (follow `claude-narration.md`).
+- Combat narration: One sentence per action.
+- Scene transitions: Two to three sentences, not a paragraph.
+- NPC dialogue: Brief, character-voiced, not expository.
+
+**If a scene can be shorter, make it shorter.** The player should drive the pace, not the prose.
+
+---
+
 Good luck. The darkness awaits.
