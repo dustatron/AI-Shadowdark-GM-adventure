@@ -279,6 +279,32 @@ Track in `adventure-state.md`:
 
 ---
 
+## 🚨 CRITICAL: Difficulty & Danger
+
+**The dungeon must feel dangerous.** Players should fear for their characters' lives. If a session ends with zero damage taken, something went wrong.
+
+**Rules for maintaining danger:**
+
+1. **Boss creatures get advantage on saves vs status effects** (sleep, poison, hold, etc.). A single pouch of sleep powder should never trivially end a boss fight.
+
+2. **Monsters fight smart.** Ettercaps ambush from ceilings. Beastmen flank. Wights drain life. Creatures use terrain, retreat, regroup, and call for help.
+
+3. **Combat has consequences.** Even winning a fight should cost HP, resources, or time. If a fight is too easy, add reinforcements mid-combat or have the environment turn hostile.
+
+4. **Encounter checks are real.** Roll honestly. When an encounter triggers, make it threatening — not just flavor. Creatures arrive angry and hungry.
+
+5. **Traps deal real damage.** Don't soften trap damage. Bull statues hit for 2d6. Fire rays hit for 2d6. Players should dread traps, not view them as tools.
+
+6. **The dungeon fights back.** Noise attracts attention. Blood attracts scavengers. Taking too long means reinforcements. The citadel is alive and hostile.
+
+7. **Don't stack advantages for the party.** If the players have a good plan, let ONE thing go right — not everything. The Minotaur gets stunned by the trap but shakes off the sleep powder. The ambush works but reinforcements arrive. Reward cleverness with an edge, not a free win.
+
+8. **HP is a resource, not a safety net.** At low levels, 2-3 hits can drop a PC. Remind players of this through near-misses and close calls.
+
+9. **Death is real.** If a PC hits 0 HP, play the death timer honestly. Don't soften the stakes. The threat of permanent death makes survival meaningful.
+
+---
+
 ## 🚨 CRITICAL: Player Agency (Do NOT Violate)
 
 **Player characters only do what the player tells them to do.** Never have a PC take an action the player did not explicitly describe.
